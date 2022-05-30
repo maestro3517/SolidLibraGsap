@@ -1,0 +1,11 @@
+.red{
+    opacity: 0;
+}
+
+.rounded{
+    border-radius: .5 !important;
+}
+
+body{
+    margin: 0%;
+}
