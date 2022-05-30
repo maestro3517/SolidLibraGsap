@@ -1,4 +1,3 @@
-import { Fade } from "react-awesome-reveal";
 import gsap from "gsap";
 import { createEffect } from "solid-js";
 import ScrollTrigger from "gsap/ScrollTrigger";
