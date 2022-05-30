@@ -4,6 +4,9 @@ import { styled } from "solid-styled-components";
 import "solid-slider/slider.css";
 import { Slider } from "solid-slider";
 import autoplay from "solid-slider/plugins/autoplay";
+import SlideShow_1 from "../assets/SlideShow_3.png";
+import SlideShow_2 from "../assets/SlideShow_2.png";
+import SlideShow_3 from "../assets/SlideShow_1.png";
 // import slideshow 
 
 
@@ -53,9 +56,9 @@ const SlideShow = () => {
     const Carousel = () => {
         return (
             <Slider options={{ loop: true }} plugins={[autoplay(3500, {})]}>
-                <CarouselImage url="/src/assets/SlideShow_3.png"></CarouselImage>
-                <CarouselImage url="/src/assets/SlideShow_2.png"></CarouselImage>
-                <CarouselImage url="/src/assets/SlideShow_1.png"></CarouselImage>
+                <CarouselImage url={SlideShow_1}></CarouselImage>
+                <CarouselImage url={SlideShow_2}></CarouselImage>
+                <CarouselImage url={SlideShow_3}></CarouselImage>
             </Slider>
         );
     };

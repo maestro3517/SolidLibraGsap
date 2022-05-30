@@ -3,6 +3,11 @@ import { Image } from 'solid-bootstrap'
 import { createEffect } from "solid-js";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import background from "../assets/backgound_product(1).png";
+import MSAngle from "../assets/M.S.Angle.png";
+import MSRods from "../assets/Rods_Bars.png";
+import MSFlat from "../assets/M.S.Flat.png";
+
 
 
 const ClassDiv = ({ className, children }) => (
@@ -175,9 +180,9 @@ const Products = () => {
                     {/* </Fade> */}
                     <div className={`${GridProducts}`}>
                         <GridContainer container >
-                            <StyledImage xs={2} md={2} fluid className="Prodimg" src="./src/assets/M.S.Angle.png" />
-                            <StyledImage fluid className="Prodimg" src="./src/assets/M.S.Flat.png" />
-                            <StyledImage fluid className="Prodimg" src="./src/assets/Rods_Bars.png" />
+                            <StyledImage xs={2} md={2} fluid className="Prodimg" src={MSAngle} />
+                            <StyledImage fluid className="Prodimg" src={MSFlat} />
+                            <StyledImage fluid className="Prodimg" src={MSRods} />
                         </GridContainer>
                     </div>
                 </div>

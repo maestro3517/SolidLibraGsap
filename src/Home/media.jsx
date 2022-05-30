@@ -3,6 +3,9 @@ import { Image } from "solid-bootstrap";
 import gsap from "gsap";
 import { createEffect } from "solid-js";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import newMedia from "../assets/New_media_full.jpeg";
+import media1 from "../assets/Media(2).png";
+import media2 from "../assets/Media(1).png";
 
 const Grid = styled.div`
     display: grid;
@@ -200,14 +203,14 @@ const Media = () => {
                 <div className="MediaImg">
                     <MediaGrid container spacing={1}>
                         <div style={{ padding: "2%" }} className="MediaImgLeft">
-                            <StyledImage fluid Padding="1%" className="img-fluid" src="./src/assets/New_media_full.jpeg" />
+                            <StyledImage fluid Padding="1%" className="img-fluid" src={newMedia} />
                         </div>
                         <div style={{}} className={`${StyledGrid} MediaImgRight`}>
                             <div>
-                                <StyledImage fluid src="./src/assets/Media(2).png" />
+                                <StyledImage fluid src={media1} />
                             </div>
                             <div>
-                                <StyledImage fluid src="./src/assets/Media(3).png" />
+                                <StyledImage fluid src={media2} />
                             </div>
                         </div>
                     </MediaGrid>

@@ -2,6 +2,7 @@ import { createEffect } from "solid-js";
 import { css, styled } from "solid-styled-components";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import backgound_product from "../assets/backgound_product(1).png"
 
 
 const ProductsDiv = css`
