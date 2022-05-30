@@ -1,9 +1,8 @@
 // import '../css/styles.css'
-import Carousel from 'react-bootstrap/Carousel'
 
 import { styled } from "solid-styled-components";
 import "solid-slider/slider.css";
-import { Slider, createSlider } from "solid-slider";
+import { Slider } from "solid-slider";
 import autoplay from "solid-slider/plugins/autoplay";
 // import slideshow 
 
